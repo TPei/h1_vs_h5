@@ -1,8 +1,19 @@
-<h1><%= @headline.h1 %></h1>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 
-<h5><%= @headline.h5 %></h5>
+<div class="container" style="margin-top: 30px;">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="well well-lg">
+        <h1 class="bild-headline"><%= @headline.h1.upcase %></h1>
 
-<p>Gesehen in der Bild am <%= @headline.date %></p>
-<hr>
-<p>The best and very worst of Bildzeitung!</p>
-<p>h1 vs h5 is made by <a href='http://github.com/tpei'>tpei</a>, to show how crazy some news outlets really are</p> 
+        <h5 class="bild-subheader"><%= @headline.h5 %></h5>
+
+        <p>Gesehen in der Bild am <%= @headline.date %></p>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <p>The best and very worst of Bildzeitung!</p>
+  <p>theBestOfBildzeitung is made by <a href='http://github.com/tpei'>tpei</a>, to show how crazy some news outlets really are</p> 
+</div>

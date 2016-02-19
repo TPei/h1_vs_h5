@@ -1,3 +1,15 @@
 // Place all the styles related to the Headlines controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.bild-headline {
+  font-family: 'Gotham XNarrow', sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.bild-subheader {
+  font-family: 'Gotham XNarrow', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #db0000;
+}
