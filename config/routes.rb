@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'headlines#random'
   resources :headlines
 
   # The priority is based upon order of creation: first created -> highest priority.
