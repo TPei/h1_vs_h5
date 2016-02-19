@@ -21,6 +21,10 @@ class HeadlinesController < ApplicationController
   def edit
   end
 
+  def random
+    @headline = Headline.offset(rand(Headline.count)).first
+  end
+
   # POST /headlines
   # POST /headlines.json
   def create
